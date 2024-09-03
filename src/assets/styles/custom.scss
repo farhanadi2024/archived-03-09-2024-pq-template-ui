@@ -1,0 +1,14 @@
+@use 'erp-template-vuetify-components/style/variables.scss' as var;
+
+.v-navigation-drawer {
+  background-color: var.$blue700;
+  color: var.$grey0;
+}
+
+.v-list.v-list--nav .v-list-item__spacer {
+  width: 8px;
+}
+
+.v-list.v-list--nav .v-list-group {
+  --prepend-width: 16px;
+}
